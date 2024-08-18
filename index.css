@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+}
+.big {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Scenary.jpg");
+  margin: 0px;
+}
+.main {
+  height: 470px;
+  width: 370px;
+  background-color: black;
+  border-radius: 20px;
+  padding-bottom: 17px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid white;
+}
+.button {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  padding: 10px 12px 20px 22px;
+}
+
+.btn {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  border: 1px solid white;
+  color: rgb(255, 1, 1);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border: 1px solid white;
+  color: rgb(22, 192, 82);
+  border: 1px solid white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.btn3 {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: rgb(22, 192, 82);
+  color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border-radius: 20px 20px 0 0;
+  width: 350px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid;
+  padding: 0px;
+}
+input[type="text"] {
+  padding: 0 0 0 20px;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+input::placeholder {
+  color: white;
+  font-size: 26px;
+}
+
+.btn:hover {
+  background-color: rgb(209, 201, 201);
+}
+
+.btn1:hover {
+  background-color: rgb(209, 201, 201);
+}
+.btn2:hover {
+  background-color: rgb(209, 201, 201);
+  color: rgb(46, 230, 46);
+}
+.btn3:hover {
+  background-color: rgb(46, 230, 46);
+}
+
+.btn:active {
+  font-size: 1.2rem;
+}
+.btn1:active {
+  font-size: 1.2rem;
+}
+.btn2:active {
+  font-size: 1.2rem;
+}
+
+.btn3:active {
+  font-size: 1.2rem;
+}
